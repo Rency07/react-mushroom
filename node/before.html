@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		
+		<!--<form action="http://localhost:3000/admin/addbanner" method="post" enctype="multipart/form-data">
+          	<input type="text" name="title" id="title" />
+			<input type="text" name="position" id="position" />
+			<input type="file" name="img" id="img" accept="image/*" />
+          	<input type="submit" value="添加" id="btn"/>
+         </form>-->
+          <!--<img src="http://10.9.160.191:3000/uploads/5b14a84916e39ef73c245a4beface370.jpeg"/>-->
+         <!--<input type="button" name="btn" id="btn" value="发送验证码" /> -->
+          
+          
+	</body>
+</html>
+<script src="md/jquery-1.11.0.js"></script>
+<script type="text/javascript">
+	/*$("#btn").click(function(){
+		$.ajax({
+          type:"get",
+          url:"http://10.9.160.191:3000/users/sendMsg?mobile=15953294617",
+          success:function(data){
+            console.log(data)
+          }
+       })
+	})*/
+ /* $.ajax({
+          type:"post",
+          url:"http://10.9.160.191:3000/admin/addbanner",
+          success:function(data){
+            console.log(data)
+          }
+       })*/
+	//用户注册
+	/*$.ajax({
+          type:"get",
+          url:"http://10.9.160.191:3000/users/register?userID=665&password=123qwe",
+          success:function(data){
+            console.log(data)
+          }
+       });*/
+              
+    //用户登录
+	/*$.ajax({
+          type:"get",
+          url:"http://10.9.160.191:3000/users/login?userID=mmm&password=123qwe",
+          success:function(data){
+            console.log(data)
+          }
+       });*/
+      
+     //用户信息添加
+	/*$.ajax({
+          type:"get",
+          url:"http://10.9.160.191:3000/users/addUserInfo?userID=mmm&sex=boy&age=12",
+          success:function(data){
+            console.log(data)
+          }
+       });*/
+      
+      
+     //用户信息查询
+	/*$.ajax({
+          type:"get",
+          url:"http://10.9.160.191:3000/users/userInfo?userID=mmm",
+          success:function(data){
+            console.log(data)
+          }
+       });*/
+     
+     //首页轮播图查询
+	/*$.ajax({
+          type:"get",
+          url:"http://10.9.160.191:3000/banner?position=top",
+          success:function(data){
+            console.log(data)
+          }
+       });*/
+    
+     //首页限时抢购查询
+	/*$.ajax({
+          type:"get",
+          url:"http://10.9.160.191:3000/collection?collection=homeflashsale",
+          success:function(data){
+            console.log(data)
+          }
+       });*/
+      
+     //首页商品分页
+	/*$.ajax({
+          type:"get",
+          url:"http://10.9.160.191:3000/listpage?collection=homesale&start=0&num=10",
+          success:function(data){
+            console.log(data)
+          }
+       });*/
+      
+    //分类侧边栏查询
+	/*$.ajax({
+          type:"get",
+          url:"http://10.9.160.191:3000/kindaside",
+          success:function(data){
+            console.log(data)
+          }
+       });*/
+      
+     //分类右侧内容查询
+	/*$.ajax({
+          type:"get",
+          url:"http://10.9.160.191:3000/kindnext?title=上衣",
+          success:function(data){
+            console.log(data)
+          }
+       });*/
+    
+    //分类右侧内容查询
+	/*$.ajax({
+          type:"get",
+          url:"http://10.9.160.191:3000/kindnext?title=上衣",
+          success:function(data){
+            console.log(data)
+          }
+       });*/
+      
+     //分类商品分页
+	/*$.ajax({
+          type:"get",
+          url:"http://10.9.160.191:3000/kindpage?type=冬款上新&start=2&num=10",
+          success:function(data){
+            console.log(data)
+          }
+       });*/
+      
+     //搜索页
+	/*$.ajax({
+          type:"get",
+          url:"http://10.9.160.191:3000/search?type=冬款&start=0&num=10",
+          success:function(data){
+            console.log(data)
+          }
+       });*/
+      
+    //详情
+	/*$.ajax({
+          type:"get",
+          url:"http://10.9.160.191:3000/detail?tradeItemId=1knyvkq",
+          success:function(data){
+            console.log(data)
+          }
+       });*/
+    
+    //单人用户信息
+   /* $.ajax({
+          type:"get",
+          url:"http://10.9.160.191:3000/admin/userInfo?userID=mmm",
+          success:function(data){
+            console.log(data)
+          }
+       })*/
+      
+    //购物车查询
+   /* $.ajax({
+          type:"get",
+          url:"http://10.9.160.191:3000/cart/cartuser?userID=mmm",
+          success:function(data){
+            console.log(data)
+          }
+       })*/
+      
+      
+    //添加购物车
+	/*$.ajax({
+          type:"post",
+          url:"http://10.9.160.191:3000/cart/addcart",
+          data:{
+          	userID:"mmt",
+          	tradeItemId:"1k669fa",
+          	num:2,
+          	size:"M",
+          	price:166,
+          	shopSeller:"22222",
+          	title:"jhuj",
+          	time:"22222"
+          },
+          success:function(data){
+            console.log(data)
+          }
+      });*/
+     
+      //购物车数量加减
+  /* $.ajax({
+          type:"get",
+          url:"http://10.9.160.191:3000/cart/updatecart?userID=phyllis&tradeItemId=1kq4sce&size=M",
+          success:function(data){
+            console.log(data)
+          }
+       })*/
+      
+      
+     //购物车单条删除
+    /*$.ajax({
+          type:"get",
+          url:"http://10.9.160.191:3000/cart/removecart?userID=mmm&tradeItemId=1k669ca&size=M",
+          success:function(data){
+            console.log(data)
+          }
+       })*/
+      
+    //购物车多条删除
+   /*$.ajax({
+          type:"get",
+          url:"http://10.9.160.191:3000/cart/removeallcart?userID=mmt",
+          success:function(data){
+            console.log(data)
+          }
+       })*/
+      
+    //商家查询
+   /*$.ajax({
+          type:"get",
+          url:"http://10.9.160.191:3000/admin/shoplist",
+          success:function(data){
+            console.log(data)
+          }
+       })*/
+      
+          
+    //商家产品查询
+  /*$.ajax({
+          type:"get",
+          url:"http://10.9.160.191:3000/admin/shopdetail?shopSeller=嘉嘉的店",
+          success:function(data){
+            console.log(data)
+          }
+       })
+      */
+     //
+ /* $.ajax({
+          type:"get",
+          url:"http://10.9.160.191:3000/admin/ttt?tradeItemId=1kqhrn4",
+          success:function(data){
+            console.log(data)
+          }
+       })*/
+      
+     //banner列表
+  /*$.ajax({
+          type:"get",
+          url:"http://10.9.160.191:3000/admin/bannerlist",
+          success:function(data){
+            console.log(data)
+          }
+       })*/
+    
+  
+    
+     //banner删除
+  /*$.ajax({
+          type:"get",
+          url:"http://10.9.160.191:3000/admin/removebanner?title=家居团",
+          success:function(data){
+            console.log(data)
+          }
+       })*/
+       //订单查询
+ /* $.ajax({
+          type:"post",
+          url:"http://10.9.160.191:3000/order/addorder",
+          data:{
+          	userID:"fdrsnho"
+          },
+          success:function(data){
+            console.log(data)
+          }
+       }) */
+      $.ajax({
+          type:"get",
+          url:"http://10.9.160.191:3000/order/orderid?id=ObjectId('5a3fa19ee6dc28c7ab70ac94')",
+          success:function(data){
+            console.log(data)
+          }
+       })
+      
+     
+     //数据库增加数据
+ /* $.ajax({
+          type:"get",
+          url:"http://10.9.160.191:3000/mmmm",
+          success:function(data){
+            console.log(data)
+          }
+       })*/
+</script>
